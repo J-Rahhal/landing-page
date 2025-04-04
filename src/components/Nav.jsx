@@ -9,7 +9,10 @@ const Nav = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
-      <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
+      <div
+        className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16"
+        title="velora"
+      >
         <div className="logo flex cursor-pointer gap-2 relative">
           <div className="w-4 h-4 bg-yellow-400 rotate-45 logo-effect shadow-yellow-500 shadow-sm"></div>
           <div className="w-4 h-4  bg-pink-600 rotate-45 logo-effect shadow-pink-500 shadow-sm"></div>
