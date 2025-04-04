@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.logo-effect {
+  transition: transform 0.3 ease-in-out;
+}
+
+.logo-effect:hover {
+  transform: scale(1.2);
+  opacity: 80%;
+}
