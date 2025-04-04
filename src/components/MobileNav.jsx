@@ -4,8 +4,8 @@ const MobileNav = ({ menu, links, activeLink, setActiveLink }) => {
   return (
     <>
       {menu && (
-        <div className="md:hidden bg-white border-t border-gray-400 py-4">
-          <div className="container mx-auto px-4 space-y-4">
+        <div className="md:hidden bg-white border-t border-gray-400 py-4 px-4">
+          <div className="container mx-auto space-y-4">
             {links.map((link) => {
               return (
                 <a
@@ -21,6 +21,12 @@ const MobileNav = ({ menu, links, activeLink, setActiveLink }) => {
               );
             })}
           </div>
+          <button
+            href="#newsletter"
+            className="w-full px-6 rounded-lg bg-purple-800 text-white py-2.5  hover:bg-pink-400 font-medium transition-all hover:shadow-lg hover:shadow-purple-800"
+          >
+            Get in touch
+          </button>
         </div>
       )}
     </>
