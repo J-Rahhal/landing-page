@@ -8,3 +8,8 @@
   transform: scale(1.2);
   opacity: 80%;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}

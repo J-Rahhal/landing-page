@@ -14,9 +14,9 @@ const Nav = () => {
         title="velora"
       >
         <div className="logo flex cursor-pointer gap-2 relative">
-          <div className="w-4 h-4 bg-yellow-400 rotate-45 logo-effect shadow-yellow-500 shadow-sm"></div>
-          <div className="w-4 h-4  bg-pink-600 rotate-45 logo-effect shadow-pink-500 shadow-sm"></div>
-          <div className="w-4 h-4 bg-purple-800 absolute left-3 bottom-3.5 rotate-45 logo-effect shadow-purple-500 shadow-sm"></div>
+          <div className="w-4 h-4 bg-yellow-400 rotate-45 logo-effect shadow-yellow-500 shadow-sm cursor-pointer"></div>
+          <div className="w-4 h-4  bg-pink-600 rotate-45 logo-effect shadow-pink-500 shadow-sm cursor-pointer"></div>
+          <div className="w-4 h-4 bg-purple-800 absolute left-9 bottom-10 rotate-45 logo-effect shadow-purple-500 shadow-sm cursor-pointer"></div>
         </div>
         <MobileNavButton menu={isOpen} setMenu={setIsOpen} />
         <div className="hidden md:flex items-center gap-10">

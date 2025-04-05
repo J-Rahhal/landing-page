@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import Partners from "./components/Partners";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <div className="overflow-hidden">
         <Nav />
         <Hero />
+        <Partners />
       </div>
     </div>
   );
