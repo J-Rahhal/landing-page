@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Partners from "./components/Partners";
 import Mission from "./components/Mission";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <Partners />
         <Mission />
+        <Services />
       </div>
     </div>
   );
