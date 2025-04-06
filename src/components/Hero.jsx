@@ -32,11 +32,11 @@ const Hero = () => {
           We craft bold strategies and data-driven campaigns that turn clicks
           into customers and brands into industry leaders
         </p>
-        <div className="flex gap-3 mx-w-md">
+        <div className="flex  gap-3 mx-w-md">
           <input
             type="email"
             placeholder="Enter Your Email"
-            className="flex-1 px-6 py-4 border-gray-400 rounded-xl focus:outline-none focus:border-purple-800 focus:ring-2 focus:ring-purple-400 transition-all"
+            className="w-3/4 m:w-full px-6 py-4 border-gray-400 rounded-xl focus:outline-none focus:border-purple-800 focus:ring-2 focus:ring-purple-400 transition-all"
           />
 
           <button className="bg-purple-400 text-white px-5 py-6 rounded-xl hover:bg-pink-400 cursor-pointer hover:shadow-lg hover:shadow-pink-800">
