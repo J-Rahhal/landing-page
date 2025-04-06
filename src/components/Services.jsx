@@ -60,8 +60,8 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-8 md:flex-row py-44">
-        <div className="w-full md:w-1/3 border-l-8 border-l-purple-800 flex items-center">
+      <div className="flex flex-col gap-18 md:flex-row py-44">
+        <div className="w-full md:w-1/3 border-l-8 border-l-purple-800 flex items-center place-self-center">
           <h2 className="text-start text-4xl font-black pl-2">
             Shaping the future of marketing with innovative strategies
           </h2>
