@@ -1,12 +1,50 @@
-# React + Vite
+# Velora - Mock Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+Velora showcases a professional, high-impact front-end layout suitable for digital agencies and creative studios. While it's a mock project, it demonstrates modern frontend development best practices, with a strong emphasis on layout, responsiveness, and design detail.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Component-based UI
+- **TailwindCSS** – Utility-first styling
+- **React Icons** – Scalable icon components
+
+---
+
+## 📌 Features
+
+- Responsive layout for all screen sizes
+- Smooth scroll and UI transitions
+- Testimonials section with dummy data
+- Grid-based service offerings
+- Hero section with slogan and CTA
+- Footer with navigation and social media links
+
+---
+
+## 💡 Notes
+
+- This is a **frontend-only** project. No backend or form functionality is implemented.
+- All data (such as testimonials, services, and logos) is stored in mock JSON files or arrays.
+- Placeholder images and text are used throughout the site.
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/velora.git
+
+# Navigate into the project folder
+cd velora
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
