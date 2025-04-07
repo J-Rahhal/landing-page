@@ -9,7 +9,7 @@ import { MdOutlineDesignServices } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div id="services " className="mx-auto py-38">
+    <div id="services" className="mx-auto pt-38">
       <div className="pb-12 md:pb-24">
         <h2 className="font-bold text-4xl pb-8">
           How Can We Grow Your Business?

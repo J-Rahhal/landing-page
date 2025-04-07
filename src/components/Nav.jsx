@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { navLinks } from "../data/NavLinks";
+import { navLinks } from "../data/data.js";
 import MobileNav from "./MobileNav";
 import MobileNavButton from "./MobileNavButton";
 
