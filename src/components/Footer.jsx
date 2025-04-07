@@ -32,13 +32,16 @@ const Footer = ({ activeLink, setActiveLink }) => {
         })}
       </div>
       <div className="flex-1 flex gap-12">
-        <FaFacebook title="facebook.com" className="hover:text-blue-800" />
-        <BsTwitterX title="x.com" />
+        <FaFacebook title="facebook.com" className="hover:text-blue-800 " />
+        <BsTwitterX title="x.com" className="cursor-pointer" />
         <FaInstagramSquare
           title="instagram.com"
-          className="hover:text-purple-400"
+          className="hover:text-purple-400 cursor-pointer"
         />
-        <IoLogoYoutube title="Youtube.com" className="hover:text-red-500" />
+        <IoLogoYoutube
+          title="Youtube.com"
+          className="hover:text-red-500 cursor-pointer"
+        />
       </div>
     </div>
   );
