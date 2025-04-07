@@ -8,16 +8,18 @@ const MobileNav = ({ menu, links, activeLink, setActiveLink }) => {
           <div className="container mx-auto space-y-4">
             {links.map((link) => {
               return (
-                <a
-                  href={link.href}
-                  key={link.id}
-                  className={`block text-sm font-medium py-2  ${
-                    activeLink === link.href ? "text-purple-800" : "text-black"
-                  }`}
-                  onClick={() => setActiveLink(link.href)}
-                >
-                  {link.label}
-                </a>
+                <div className="py-4">
+                  <a
+                    href={link.href}
+                    key={link.id}
+                    className={`text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-purple-800 after:transition-all ${
+                      activeLink === link.href ? "after:w-full" : "text-black"
+                    }`}
+                    onClick={() => setActiveLink(link.href)}
+                  >
+                    {link.label}
+                  </a>
+                </div>
               );
             })}
           </div>

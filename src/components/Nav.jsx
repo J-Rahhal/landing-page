@@ -3,9 +3,8 @@ import { navLinks } from "../data/data.js";
 import MobileNav from "./MobileNav";
 import MobileNavButton from "./MobileNavButton";
 
-const Nav = () => {
+const Nav = ({ activeLink, setActiveLink }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("#home");
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
